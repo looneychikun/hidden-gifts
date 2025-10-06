@@ -41,7 +41,7 @@ useSeoMeta({
 
       <template #right>
         <UColorModeButton />
-        
+
         <div v-if="loggedIn">
           <UButton
             to="https://github.com/nuxt-ui-templates/starter"
@@ -70,7 +70,7 @@ useSeoMeta({
 
       <template #right>
         <UButton
-          to="https://github.com/looneychikun/secret-santa"
+          to="https://github.com/looneychikun/hidden-gifts"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
