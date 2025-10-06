@@ -40,9 +40,9 @@ useSeoMeta({
       </template>
 
       <template #right>
+        <UColorModeButton />
+        
         <div v-if="loggedIn">
-          <UColorModeButton />
-
           <UButton
             to="https://github.com/nuxt-ui-templates/starter"
             target="_blank"

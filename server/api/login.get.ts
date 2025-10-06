@@ -5,6 +5,6 @@ export default defineOAuthAuth0EventHandler({
   },
   async onSuccess(event, { user, tokens }) {
     await setUserSession(event, { user: user});
-    return sendRedirect(event, '/');
+    return sendRedirect(event, '/dash');
   }
 })

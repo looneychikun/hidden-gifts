@@ -1,10 +1,10 @@
 <script setup lang="ts">
 const { loggedIn } = useUserSession();
 
-if (loggedIn) {
-  // Skip homepage
-  navigateTo('/dash');
-}
+// if (loggedIn.value) {
+//   // Skip homepage
+//   navigateTo('/dash');
+// }
 
 const links = ref([
   {
