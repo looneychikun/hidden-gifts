@@ -73,9 +73,10 @@ useSeoMeta({
           to="https://github.com/looneychikun/hidden-gifts"
           target="_blank"
           icon="i-simple-icons-github"
-          aria-label="GitHub"
-          color="neutral"
+          aria-label="Source"
           variant="ghost"
+          label="Source"
+          class="text-muted"
         />
       </template>
     </UFooter>

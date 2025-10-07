@@ -14,7 +14,14 @@ export default defineNuxtConfig({
     preset: 'cloudflare_module',
     cloudflare: {
       deployConfig: true,
-      nodeCompat: true
+      nodeCompat: true,
+      wrangler: {
+        routes: [{
+          "pattern": "gifts.reenan.me",
+          "custom_domain": true
+        }],
+        workers_dev: false
+      }
     }
   },
 
