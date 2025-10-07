@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
     'nuxt-auth-utils',
+    '@nuxthub/core',
   ],
 
   nitro: {
@@ -23,6 +24,10 @@ export default defineNuxtConfig({
         workers_dev: false
       }
     }
+  },
+
+  hub: {
+    database: true
   },
 
   devtools: {

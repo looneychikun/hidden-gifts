@@ -1,4 +1,12 @@
 {
-  "name": "hidden-gifts",
-  "compatibility_date": "2025-10-06"
+	"name": "hidden-gifts",
+	"compatibility_date": "2025-10-06",
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "hidden-gifts",
+			"database_id": "6d25631d-7542-440d-b5c5-74a8aa3ed1ba",
+      "migrations_dir": "server/database/migrations"
+		}
+	]
 }
