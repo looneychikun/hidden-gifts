@@ -4,7 +4,7 @@ export default defineOAuthAuth0EventHandler({
     scope: ['openid', 'profile', 'email']
   },
   async onSuccess(event, { user, tokens }) {
-    await setUserSession(event, { user: user});
+    await setUserSession(event, { user: { ...user, alive: true} });
     return sendRedirect(event, '/dash');
   }
 })
